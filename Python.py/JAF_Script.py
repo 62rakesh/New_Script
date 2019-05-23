@@ -93,9 +93,12 @@ class JAF(unittest.TestCase):
         self.alert.accept()
         sleep(1)
         self.driver.save_screenshot("Screenshoot1.png")
+        print(Hii,Rakesh)
     @classmethod
     def tearDownClass(cls):
         cls.driver.close()
+
+
 
 if __name__=='__main__':
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='JAF'))
