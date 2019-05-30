@@ -15,7 +15,7 @@ class Assessments(unittest.TestCase):
     def test_Login(self):
         self.driver.get("https://www.mondaymorning.in")
         self.driver.find_element_by_link_text("Log In").click()
-        self.driver.find_element_by_xpath("//INPUT[@name='user_login']").send_keys("rakesh_patra+817@mondaymorning.in")
+        self.driver.find_element_by_xpath("//INPUT[@name='user_login']").send_keys("rakesh_patra+831@mondaymorning.in")
         self.driver.find_element_by_xpath("//INPUT[@name='user_pwd']").send_keys("1234")
         self.driver.find_element_by_xpath("//input[@id='login-model']").submit()
         sleep(2)
