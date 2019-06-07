@@ -2,6 +2,7 @@ import os
 from time import sleep
 from selenium import webdriver
 import unittest
+import HtmlTestRunner
 from selenium.webdriver.chrome.webdriver import WebDriver
 
 class casestudy_FIB(unittest.TestCase):
@@ -93,4 +94,4 @@ class casestudy_FIB(unittest.TestCase):
         cls.driver: webdriver=webdriver.Chrome()
         cls.driver.close()
 if __name__=='__main__':
-    unittest.main()
+    unittest.main(testRunner=HtmlTestRunner.HtmlTestRunner(output='Casestudy_Fib'))
