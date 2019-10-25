@@ -123,7 +123,7 @@ def test_assessments():
     #                'Finance',
     #                'Strategy'
     #                ]
-    # driver.find_element_by_link_text('Marketing').click()
+    
     # sleep(2)
     # driver.find_element_by_xpath("(//I[@class='fa fa-lock'])[' Unlock Package'][1]").click()
     # sleep(2)
