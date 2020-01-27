@@ -143,7 +143,7 @@ def test_Logout():
     driver.find_element_by_xpath("(//DIV[@class='img-box'])[text()=' JS ']").click()
     sleep(1)
     driver.find_element_by_xpath("(//A[@class='dropdown-item'])[text()='Sign out']").click()
-    sleep(5)
+    sleep(3)
 
 
 def test_teardown():
